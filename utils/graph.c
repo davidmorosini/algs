@@ -1,3 +1,7 @@
+/*
+    David Morosini de Assumpção
+*/
+
 #include "graph.h"
 
 data_node * get_data(lst_node * l){
