@@ -19,17 +19,17 @@ data_node * new_data_node(int id){
     return d;
 }
 
-graph * new_graph(data_node * d){
-    graph * g = new_lst(new_node(d));
+graph * new_graph(int ID){
+    graph * g = new_lst(new_node(new_data_node(ID)));
     return g;
 }
 
-graph * add_vertex(graph * g, data_node * dn){
+graph * add_vertex(graph * g, int ID_vertex){
     if(g == NULL){
-        g = new_graph(dn);
+        g = new_graph(ID_vertex);
     }
     //colocar aqui inclusão ordenada
-    g = add_end(g, new_node(dn));
+    g = add_end(g, new_node(new_data_node(ID_vertex)));
 
     return g;
 }

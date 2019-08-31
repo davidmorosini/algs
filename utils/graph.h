@@ -15,9 +15,9 @@ typedef struct node_graph{
     graph * adj_ver;
 }data_node;
 
-graph * new_graph(data_node * d);
+graph * new_graph(int ID);
 
-graph * add_vertex(graph * g, data_node * dn);
+graph * add_vertex(graph * g, int ID_vertex);
 graph * add_edge(graph * g, int ID_vertex, data_node * vertex);
 graph * add_new_edge(graph * g, int ID_vertex, int ID_incidence);
 
