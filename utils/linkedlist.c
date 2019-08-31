@@ -1,3 +1,7 @@
+/*
+    David Morosini de Assumpção
+*/
+
 #include "linkedlist.h"
 
 /*Funções para inicialização das estruturas de dados*/

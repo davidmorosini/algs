@@ -1,3 +1,7 @@
+/*
+    David Morosini de Assumpção
+*/
+
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
