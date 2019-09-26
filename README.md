@@ -1,4 +1,3 @@
-# Teoria dos Grafos
-
-|build-status|
+Grafos |build-status| |coverage-status| |docs|
+===============================================
 
