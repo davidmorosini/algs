@@ -1,2 +1,6 @@
 language: c
-os: linux
+sudo: false # only for faster builds
+script:
+  - make grafos
+  - ./grafos
+
